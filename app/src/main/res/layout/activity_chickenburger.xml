@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="@drawable/fin"
+        android:layout_height="match_parent"
+        tools:context=".chickenburger">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Ingredients needed"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 1/2 lb. ground chicken"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="113dp"
+                tools:layout_editor_absoluteY="119dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3/4 tsp. smoked paprika"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="113dp"
+                tools:layout_editor_absoluteY="119dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 clove garlic, minced"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="113dp"
+                tools:layout_editor_absoluteY="119dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3 scallions, minced"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="113dp"
+                tools:layout_editor_absoluteY="119dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kosher salt"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="113dp"
+                tools:layout_editor_absoluteY="119dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Freshly ground black pepper"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="113dp"
+                tools:layout_editor_absoluteY="119dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 tbsp. extra-virgin olive oil"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="113dp"
+                tools:layout_editor_absoluteY="119dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4 slices cheddar"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="113dp"
+                tools:layout_editor_absoluteY="119dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1/4 small red onion, thinly sliced"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="113dp"
+                tools:layout_editor_absoluteY="119dp" />
+            <CheckBox
+            android:id="@+id/checkBox10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4 leaves butterhead lettuce"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+            <CheckBox
+            android:id="@+id/checkBox114"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4 brioche burger buns, split and lightly toasted"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Steps"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:text="1.In a large bowl, combine chicken, paprika, garlic, and green onions, and season with salt and pepper. Divide mixture into 4 patties."
+                android:textStyle="italic"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:text="2.In a large skillet over medium heat, heat oil. Add burger patties and cook, flipping once, until golden."
+                android:textStyle="italic"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:text="3.Top with cheddar, cover, and cook until just melted, 2 minutes. Remove from heat and transfer patties to a plate."
+                android:textStyle="italic"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:text="4.Stack lettuce, coleslaw, chicken burgers, avocado, red onion, jalapeño, and more coleslaw on top of bottom buns. Close sandwiches with top buns."
+                android:textStyle="italic"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>

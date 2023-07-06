@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/fin"
+    android:layout_height="match_parent"
+    tools:context=".pork">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Ingredients needed"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#3F51B5"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12 oz (375 g) ground Ontario pork"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 tbsp (15 mL) extra virgin olive oil"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 small onion, diced"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 tsp (10 mL) Italian seasoning"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 cups (500 mL) tomato basil pasta sauce"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 pkg (8 oz/250 g) wonton wrappers"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 cup (250 mL) ricotta cheese"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 cups (500 mL) shredded Italian blend or mozzarella cheese"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Steps"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#3F51B5"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:text="1.In a large nonstick skillet, cook pork, onion and Italian seasoning in oil over medium high heat, breaking up with spoon until no longer pink. Stir in pasta sauce and bring to a simmer. Remove from heat."
+            android:textStyle="italic"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:text="2.Preheat oven to 350ºF (180ºC). Lightly spray an 8 inch (20 cm) square baking dish."
+            android:textStyle="italic"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:text="3.Spread about 1/2 cup (125 mL) of the pork sauce into prepared dish to cover bottom. Cover bottom with wonton wrappers, overlapping slightly. Spread another 1/2 cup (125 mL) of the sauce and top with one third of the ricotta cheese and sprinkle with 1/2 cup (125 mL) of the cheese. Repeat layers twice."
+            android:textStyle="italic"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:text="4.Arrange remaining wonton wrappers over top; spread with remaining sauce and cheese. Bake for about 30 minutes or until sides are bubbly and top is golden. Let stand 5 minutes before cutting to serve"
+            android:textStyle="italic"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>

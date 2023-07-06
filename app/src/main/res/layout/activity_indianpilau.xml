@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/fin"
+    android:layout_height="match_parent"
+    tools:context=".indianpilau">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Ingredients needed"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#3F51B5"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 tbsp ghee"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4 green cardamom"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 piece cassia bark"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1/2 tsp cumin seed"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 cup basmati rice"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 1/2 cups water"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 tsp kosher sal"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1/2 tsp turmeric"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Steps"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#3F51B5"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:text="1.Pick a pot with a tight fitting lid. For 1 cup of rice a 2 quart saucepan is a good size."
+            android:textStyle="italic"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:text="2.Heat the ghee over medium heat."
+            android:textStyle="italic"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:text="3.Add the green cardamom, cassia bark and cumin seed. Little bubbles should form around the spices. Cook for around 30 seconds."
+            android:textStyle="italic"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:text="4.Add the rice and stir. Add the water. For basmati using this technique the proportions are always 1 rice to 1 and 1/2 water. One tsp of kosher salt per cup of rice."
+            android:textStyle="italic"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:text="5.Add the turmeric and Indian bay leaf (tej patta). Bring to a lively simmer."
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:text="6.Reduce the heat to low and cover. Set a timer for 20 minutes. Do something else for a while."
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:text="7.When the timer goes off (20 minutes after you covered the pot), turn of the heat. Do not uncover. Move the pot off the burner."
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:text="8.Set a timer for 5 minutes. Keep doing something else. After five minutes remove the lid and gently fluff the rice. Inhale that aroma!"
+            android:textStyle="italic"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/fin"
+    android:layout_height="match_parent"
+    tools:context=".creamyquinoa">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Ingredients needed"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#3F51B5"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 cups cooked quinoa"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1/2 cup carrots sliced"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1/2 cup sugar snap peas"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 medium scallions"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 1/2 cup peanut butter"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 tsp fresh squeezed lime"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1/2 tsp red chili pepper flakes"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 cloves garlic crushed"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1/2 tsp fresh ginger"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:text="1 tsp vinegar"
+            android:textStyle="italic"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Steps"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#3F51B5"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:text="1.In a medium bowl combine the quinoa with carrots,sugar peas and scallions."
+            android:textStyle="italic"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:text="2.Mix all the dressing ingredients until you have a smooth thick cream"
+            android:textStyle="italic"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:text="3.Add dressing to quinoa and stir until peanut butter dreesing is fully incorporated"
+            android:textStyle="italic"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:text="4.Refrigerate for up to 2 days or enjoy immediately"
+            android:textStyle="italic"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</ScrollView>

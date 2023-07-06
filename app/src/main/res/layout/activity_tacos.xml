@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fin"
+    tools:context=".tacos">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Ingredients needed"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#3F51B5"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="220g pack lemon"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 tsp tomato paste"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6 tsp mayonnaise"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4 soft corn tortillas"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="175g cabbage;finely shredded"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="handful chopped coriander"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 small red onion;finely sliced"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lime wedges to serve(optional)"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+        <CheckBox
+            android:id="@+id/checkBox10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="slices of cooked meat of choice"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Steps"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#3F51B5"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="1.Heat oven to 220C "
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="2.Space the lemons apart on a baking sheet after slicing and bake for 12-15min until crispy"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="3.Meanwhile mix the tomato paste into the mayo and warm the tortillas over a gas flame "
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="4.To make the salad,toss the cabbage,meat ,coriander and onion with limejuice and some salt "
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="5.Spread the tortillas with a little spicy mayo,then place the salad.Top with more mayo and fold"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="6.Serve with the lime wedged "
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/fin"
+    android:layout_height="match_parent"
+    tools:context=".omlette">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Ingredients needed"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#3F51B5"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="toasted crusty bread, to serve"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 tbsp olive oil"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 medium red onion, thinly sliced"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100g rindless shortcut bacon, thinly sliced"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4 eggs"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20g butter"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1/4 cup grated Devondale Tasty Cheese Block (500g)"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1/4 cup grated Devondale Tasty Cheese Block (500g)"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Steps"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#3F51B5"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="1.Heat oil in a small frying pan over medium-high heat. Add onion and bacon. Cook, stirring occasionally, for 3 to 4 minutes or until onion is soft and bacon crisp."
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:text="2.Beat eggs and 2 tablespoons cold water in a bowl until combined. Season with pepper. Preheat grill on high."
+            android:textStyle="italic"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:text="3.Melt half the butter in a small frying pan over medium-high heat. Add half the egg mixture. Tilt pan so egg covers base"
+            android:textStyle="italic"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:text="4.Cook for 1 minute or until almost set. Top with half the bacon mixture and half the cheese."
+            android:textStyle="italic"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="5.Place pan under grill. Grill until omelette is lightly browned and cheese melted. Remove to a plate. Cover to keep warm."
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="6.Repeat with remaining egg mixture, bacon mixture and cheese. Serve omelettes with toasted crusty bread."
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</ScrollView>

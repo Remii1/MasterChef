@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fin"
+
+    tools:context=".Page1">
+
+    <TextView
+        android:id="@+id/heading2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Your Goals"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="231dp"
+        android:layout_height="56dp"
+        android:drawableStart="@drawable/baseline_monitor_weight_24"
+        android:drawablePadding="10dp"
+        android:text="Lose Weight"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.185" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="231dp"
+        android:layout_height="56dp"
+        android:drawableStart="@drawable/baseline_directions_run_24"
+        android:drawablePadding="10dp"
+        android:text="Stay Fit"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.339" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="231dp"
+        android:layout_height="56dp"
+        android:drawableStart="@drawable/baseline_nightlight_round_24"
+        android:drawablePadding="10dp"
+        android:textSize="20dp"
+        android:text="Sleep Better"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Switch
+        android:id="@+id/switch4"
+        android:layout_width="231dp"
+        android:layout_height="56dp"
+        android:drawableStart="@drawable/baseline_tag_faces_24"
+        android:drawablePadding="10dp"
+        android:text="Reduce anxiety and stress"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.651" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Next step"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.865" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

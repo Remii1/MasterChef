@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fin"
+    tools:context=".Supper">
+    <TextView
+        android:id="@+id/textview"
+        android:text="Supper Ideas"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <GridLayout
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textview"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:columnCount="2"
+        android:rowCount="3">
+
+
+        <!--first card-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardPasta"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/pasta" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="1"
+                    android:text="Easy Pasta"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardSmoothie"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/smoothie2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="1"
+                    android:text="Smoothies"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardGluten"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/gluten" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="1"
+                    android:text="Gluten Free"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardSalmon"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/salmon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="1"
+                    android:text="Salmon Ideas"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardRice"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/rice" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="1"
+                    android:textStyle="bold"
+                    android:text="Rice Delights"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardLasagna"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/lasagna" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="1"
+                    android:text="Lasagna Night"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </GridLayout>
+
+
+
+
+</RelativeLayout>

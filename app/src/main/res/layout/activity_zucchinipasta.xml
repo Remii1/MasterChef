@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="@drawable/fin"
+        android:layout_height="match_parent"
+        tools:context=".zucchinipasta">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Ingredients needed"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 zucchini, sliced into 1/4-inch thick rounds"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="113dp"
+                tools:layout_editor_absoluteY="119dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1/4 cup pizza sauce, or more to taste"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="113dp"
+                tools:layout_editor_absoluteY="119dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20 slices pepperoni, or more to taste"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="113dp"
+                tools:layout_editor_absoluteY="119dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1/2 cup shredded mozzarella cheese, or as needed"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="113dp"
+                tools:layout_editor_absoluteY="119dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Italian seasoning, dried parsley, or oregano for sprinkling (Optional)"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="113dp"
+                tools:layout_editor_absoluteY="119dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Steps"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:text="1.Preheat the oven to 375 degrees F (190 degrees C). Line a baking sheet with parchment paper."
+                android:textStyle="italic"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:text="2.Preheat the oven to 375 degrees F (190 degrees C). Line a baking sheet with parchment paper."
+                android:textStyle="italic"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:text="3.Bake in the preheated oven until zucchini is tender, about 15 minutes."
+                android:textStyle="italic"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:text="4.Spoon pizza sauce over each zucchini slice and top with pepperoni and mozzarella cheese. Sprinkle herbs over each."
+                android:textStyle="italic"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:text="5.Bake in the preheated oven until cheese is melted, about 5 minutes more."
+                android:textStyle="italic"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </ScrollView>
+
